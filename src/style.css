@@ -1,1 +1,29 @@
 /* styles go here */
+.lab {
+  display: block;
+}
+
+.lab1 {
+  display: block;
+  padding-top: 10px;
+}
+
+.recommend {
+  padding-top: 10px;
+}
+
+#myAge {
+  width: 65px;
+}
+
+.block {
+  padding-top: 20px;
+}
+
+.selects {
+  width: 60px;
+}
+
+.button {
+  margin-top: 20px;
+}

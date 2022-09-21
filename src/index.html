@@ -20,7 +20,8 @@
                 
           <label class="lab surnamed">
               Surname:
-            <input type="text"
+            <input 
+              type="text"
               name="surname"
               autocomplete="off"
               required
@@ -29,7 +30,8 @@
 
           <label class="lab1 named">
               Name:
-            <input type="text"
+            <input 
+              type="text"
               name="name"
               autocomplete="off"
               required
@@ -38,25 +40,31 @@
 
           <label class="lab1 ages">
               How old are You?
-            <input type="number"
+            <input 
+              type="number"
               name="age" id="myAge"
               min="1" max="100"
-              value="12" required
+              value="12" 
+              required
             >
           </label>
 
           <label class="lab1 birth">
               Full date of birth:
-            <input type="date"
+            <input 
+              type="date"
               name="dateOfBirth"
-              placeholder="mm / dd / yyyy" required
+              placeholder="mm / dd / yyyy" 
+              required
             >
           </label>
 
           <label class="lab1 accept">
               I accept the term of the agreement
-            <input type="checkbox"
-              name="termAccepted" required
+            <input 
+              type="checkbox"
+              name="termAccepted" 
+              required
             >
           </label>
         </fieldset>
@@ -66,21 +74,25 @@
         <fieldset>
           <legend>Registration</legend>
 
-          <label class="email lab">
+          <label class="email">
               E-mail:
-            <input type="email"
+            <input 
+              type="email"
               placeholder="email@example.com"
               autocomplete="off"
-              name="e-mail" required
+              name="e-mail" 
+              required
             >
           </label>
 
           <label class="password lab1">
               Password:
-            <input type="password"
+            <input 
+              type="password"
               minlength="6"
               maxlength="12"
-              name="password" required
+              name="password" 
+              required
             >
           </label>
         </fieldset>
@@ -90,17 +102,21 @@
         <fieldset>
           <legend>An interesting fact about you!</legend>
 
-          <div class="fieldRadio lab">
+          <div class="fieldRadio">
             Do you love cats?
             <label class="cats">
-              <input type="radio" name="cat"
+              <input 
+                type="radio" 
+                name="cat"
                 value="Y" 
                 required
               >Yes
             </label>
 
             <label class="cats">
-              <input type="radio" name="cat" 
+              <input 
+                type="radio" 
+                name="cat" 
                 value="N" 
                 required
               >No
@@ -109,14 +125,18 @@
 
           <label class="color lab1">
             What is your favorite color?
-            <input type="color" name="color" 
+            <input 
+              type="color" 
+              name="color" 
               required
             >
           </label>
 
           <label class="time lab1">
             What time do you go to bed?
-            <input type="time" name="time" 
+            <input 
+              type="time" 
+              name="time" 
               required
             >
           </label>
@@ -133,7 +153,9 @@
 
           <label class="rate lab1">
             How do you rate our work?
-            <input type="range" name="rate" 
+            <input 
+              type="range" 
+              name="rate" 
               required
             >
           </label>
@@ -146,13 +168,14 @@
             Additional info:
           </legend>
 
-          <label class="comments lab">
+          <label class="comments">
             Comments:
-            <textarea name="comment">
+            <textarea 
+            name="comment">
             </textarea>
           </label>
 
-          <label class="recommend lab">
+          <label class="lab1">
             Would you recommend us?
             <select name="recommend" >
               <option name="yes" value="yes">yes</option>
@@ -162,7 +185,7 @@
         </fieldset>
       </div>
 
-      <button class="buttons" type="submit">Submit</button>
+      <button class="button" type="submit">Submit</button>
     </form>
   </body>
 </html>

@@ -1,14 +1,5 @@
-/* styles go here */
-.lab {
-  display: block;
-}
-
 .lab1 {
   display: block;
-  padding-top: 10px;
-}
-
-.recommend {
   padding-top: 10px;
 }
 
@@ -24,6 +15,6 @@
   width: 60px;
 }
 
-.buttons {
+.button {
   margin-top: 20px;
 }
